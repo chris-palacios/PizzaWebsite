@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fanwood Text', serif;
+    color:#fff
+}
+.header{
+    min-height: 160vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(PizzaBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: end;
+}
+.nav-links{
+    flex: 1;
+    text-align: end;
+}
+
+.nav-links ul {
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+} 
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.logo h1{
+    text-indent: -9999999px;
+    background: url('pizzaSliceLogo.jpg');
+    width: 150px;
+    height: 150px;
+}
