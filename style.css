@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Fanwood Text', serif;
     color:#fff
+
 }
 .header{
     min-height: 160vh;
@@ -33,6 +34,10 @@ nav{
     color:#fff;
     text-decoration: none;
     font-size: 20px;
+}
+.text-box h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
 } 
 h1 {
     color: #fff;
@@ -42,6 +47,26 @@ h1 {
 .logo h1{
     text-indent: -9999999px;
     background: url('pizzaSliceLogo.jpg');
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
 }
+
+.row {
+  display: flex;
+  padding 2% 6%;
+  justify-content: space-between;
+  
+}
+
+.row ul{
+    list-style:none;
+    display: inline-block;
+    padding: 30px 75px;
+    position: relative;
+}
+
+.row ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+} 
