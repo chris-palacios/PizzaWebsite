@@ -8,7 +8,7 @@
 .header{
     min-height: 160vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(PizzaBackground.jpg);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.034), rgba(0, 0, 0, 0.8)),url(PizzaBackground.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -53,7 +53,7 @@ h1 {
 
 .row {
   display: flex;
-  padding 2% 6%;
+  padding: 2% 6%;
   justify-content: space-between;
   
 }
@@ -68,5 +68,8 @@ h1 {
 .row ul a{
     color:#fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    background-color:rgb(240, 80, 68);
+    border-radius: 15%;
+    padding: 2px 2px;
 } 
